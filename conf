@@ -6,13 +6,40 @@
             "before": ["j"],
             "after": ["g","j"]
         },
-        
+        {
+            "before": ["leader", "w"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.files.save",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": ["J"],
+            "after": ["<C-f>"],
+        },
+        {
+            "before": ["K"],
+            "after": ["<C-b>"],
+        },
     ],
     "vim.insertModeKeyBindings": [
         {
             "before": ["j","j"],
             "after": ["<Esc>"]
-        }
+        },
+        {
+            "before": ["leader", "w"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.files.save",
+                    "args": []
+                }
+            ]
+        },
     ],
     "vim.leader": "<space>",
     "vim.handleKeys":{
@@ -23,4 +50,5 @@
         "<C-v>": false,
     },
     "vim.useSystemClipboard":true,
+    "vim.useCtrlKeys":false,
 }
