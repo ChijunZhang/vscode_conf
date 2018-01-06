@@ -1,0 +1,26 @@
+{
+    "workbench.panel.location": "right",
+    "files.autoSave": "onFocusChange",
+    "vim.otherModesKeyBindingsNonRecursive": [
+        {
+            "before": ["j"],
+            "after": ["g","j"]
+        },
+        
+    ],
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j","j"],
+            "after": ["<Esc>"]
+        }
+    ],
+    "vim.leader": "<space>",
+    "vim.handleKeys":{
+        "<C-a>": false,
+        "<C-f>": false,
+        "<C-c>": false,
+        "<C-x>": false,
+        "<C-v>": false,
+    },
+    "vim.useSystemClipboard":true,
+}
