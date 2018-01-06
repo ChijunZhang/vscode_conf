@@ -1,0 +1,5 @@
+// 将键绑定放入此文件中以覆盖默认值
+[
+    { "key": "shift+l",              "command": "workbench.action.openNextRecentlyUsedEditorInGroup" },
+    { "key": "shift+h",        "command": "workbench.action.openPreviousRecentlyUsedEditorInGroup" },
+]
